@@ -2,7 +2,7 @@
 # Edit this file to tune what gets flagged. The routine reads it on every run.
 
 delivery:
-  email: YOUR_EMAIL@example.com   # <-- REPLACE before first run
+  email: thomassianrazmig@gmail.com  # <-- REPLACE before first run
 
 talent_moves:
   # Frontier labs to watch for departures
