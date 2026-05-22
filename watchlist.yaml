@@ -46,16 +46,6 @@ github:
   trending_min_stars: 500
   trending_topics: [ai, llm, agents, ml-ops, vector-database]
 
-patents:
-  # USPTO / Google Patents keyword watch
-  keywords:
-    - "large language model"
-    - "transformer architecture"
-    - "neural network training"
-    - "reinforcement learning from human feedback"
-    - "diffusion model"
-    # Add domain-specific keywords here
-  # Filter to these assignees if you want to narrow further (optional)
   assignees_of_interest:
     - OpenAI
     - Anthropic
