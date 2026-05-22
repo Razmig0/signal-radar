@@ -1,0 +1,75 @@
+# watchlist.yaml — Signal Radar configuration
+# Edit this file to tune what gets flagged. The routine reads it on every run.
+
+delivery:
+  email: YOUR_EMAIL@example.com   # <-- REPLACE before first run
+
+talent_moves:
+  # Frontier labs to watch for departures
+  labs:
+    - OpenAI
+    - DeepMind
+    - Google DeepMind
+    - Anthropic
+    - xAI
+    - Meta AI
+    - Meta FAIR
+    - Mistral AI
+    - Inflection
+    - Cohere
+  # Phrases that suggest stealth / new venture
+  signals:
+    - "stealth startup"
+    - "stealth mode"
+    - "ex-OpenAI"
+    - "ex-DeepMind"
+    - "former Anthropic"
+    - "co-founder"
+    - "raised seed"
+    - "incorporated"
+
+github:
+  # Repos you specifically want to track. Add freely.
+  watched_repos:
+    - openai/whisper
+    - meta-llama/llama
+    - ggerganov/llama.cpp
+    - vllm-project/vllm
+    - huggingface/transformers
+    - langchain-ai/langchain
+    - microsoft/autogen
+    - run-llama/llama_index
+    - All-Hands-AI/OpenHands
+    # Add your portfolio companies and competitors here
+  thresholds: [1000, 5000, 10000, 25000, 50000, 100000]
+  # Also surface any new repo (created in last 7d) gaining >500 stars
+  trending_min_stars: 500
+  trending_topics: [ai, llm, agents, ml-ops, vector-database]
+
+patents:
+  # USPTO / Google Patents keyword watch
+  keywords:
+    - "large language model"
+    - "transformer architecture"
+    - "neural network training"
+    - "reinforcement learning from human feedback"
+    - "diffusion model"
+    # Add domain-specific keywords here
+  # Filter to these assignees if you want to narrow further (optional)
+  assignees_of_interest:
+    - OpenAI
+    - Anthropic
+    - Google
+    - Microsoft
+    - Meta
+    - Apple
+    - Nvidia
+
+blocked_domains:
+  # Noise sources — don't surface signals from these
+  - indeed.com
+  - glassdoor.com
+  - ziprecruiter.com
+  - medium.com/tag        # too noisy unless specific author
+  - quora.com
+  - reddit.com/r/all
