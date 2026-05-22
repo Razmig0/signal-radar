@@ -1,1 +1,16 @@
-{}
+{
+  "snapshot_date": "2026-05-22",
+  "repos": {
+    "openai/whisper": 100180,
+    "meta-llama/llama": 59435,
+    "ggml-org/llama.cpp": 112294,
+    "vllm-project/vllm": 80730,
+    "huggingface/transformers": 160874,
+    "langchain-ai/langchain": 137403,
+    "microsoft/autogen": 58298,
+    "run-llama/llama_index": 49589,
+    "OpenHands/OpenHands": 74522,
+    "Doorman11991/smallcode": 1188,
+    "sapientinc/HRM-Text": 648
+  }
+}
