@@ -33,13 +33,15 @@ github:
   watched_repos:
     - openai/whisper
     - meta-llama/llama
-    - ggerganov/llama.cpp
+    - ggml-org/llama.cpp
     - vllm-project/vllm
     - huggingface/transformers
     - langchain-ai/langchain
     - microsoft/autogen
     - run-llama/llama_index
-    - All-Hands-AI/OpenHands
+    - OpenHands/OpenHands
+    - Doorman11991/smallcode
+    - sapientinc/HRM-Text
     # Add your portfolio companies and competitors here
   thresholds: [1000, 5000, 10000, 25000, 50000, 100000]
   # Also surface any new repo (created in last 7d) gaining >500 stars
@@ -63,3 +65,4 @@ blocked_domains:
   - medium.com/tag        # too noisy unless specific author
   - quora.com
   - reddit.com/r/all
+  - explosion.com
