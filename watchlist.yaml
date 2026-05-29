@@ -1,8 +1,9 @@
 # watchlist.yaml — Signal Radar configuration
 # Edit this file to tune what gets flagged. The routine reads it on every run.
 
+
 delivery:
-  email: thomassianrazmig@gmail.com 
+  slack_channel: "#U0B70P8BF6V" 
 
 talent_moves:
   # Frontier labs to watch for departures
