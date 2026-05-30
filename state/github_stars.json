@@ -1,16 +1,16 @@
 {
-  "snapshot_date": "2026-05-29",
+  "snapshot_date": "2026-05-30",
   "repos": {
-    "openai/whisper": 100867,
-    "meta-llama/llama": 59439,
-    "ggml-org/llama.cpp": 113609,
-    "vllm-project/vllm": 81338,
-    "huggingface/transformers": 161041,
-    "langchain-ai/langchain": 137952,
-    "microsoft/autogen": 58514,
-    "run-llama/llama_index": 49748,
-    "OpenHands/OpenHands": 75240,
-    "Doorman11991/smallcode": 1572,
-    "sapientinc/HRM-Text": 896
+    "openai/whisper": 100919,
+    "meta-llama/llama": 59436,
+    "ggml-org/llama.cpp": 113738,
+    "vllm-project/vllm": 81391,
+    "huggingface/transformers": 161054,
+    "langchain-ai/langchain": 138002,
+    "microsoft/autogen": 58531,
+    "run-llama/llama_index": 49764,
+    "OpenHands/OpenHands": 75350,
+    "Doorman11991/smallcode": 1637,
+    "sapientinc/HRM-Text": 927
   }
 }
