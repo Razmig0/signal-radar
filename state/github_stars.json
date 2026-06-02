@@ -1,16 +1,24 @@
 {
   "snapshot_date": "2026-06-02",
   "repos": {
-    "openai/whisper": 101179,
-    "meta-llama/llama": 59436,
-    "ggml-org/llama.cpp": 114198,
-    "vllm-project/vllm": 81641,
-    "huggingface/transformers": 161181,
-    "langchain-ai/langchain": 138265,
-    "microsoft/autogen": 58618,
-    "run-llama/llama_index": 49836,
-    "OpenHands/OpenHands": 75617,
-    "Doorman11991/smallcode": 1716,
-    "sapientinc/HRM-Text": 992
+    "openai/whisper": 101216,
+    "meta-llama/llama": 59437,
+    "ggml-org/llama.cpp": 114244,
+    "vllm-project/vllm": 81669,
+    "huggingface/transformers": 161190,
+    "langchain-ai/langchain": 138305,
+    "microsoft/autogen": 58631,
+    "run-llama/llama_index": 49849,
+    "OpenHands/OpenHands": 75641,
+    "Doorman11991/smallcode": 1721,
+    "sapientinc/HRM-Text": 994,
+    "VectifyAI/OpenKB": 1984,
+    "Nano-Collective/nanocoder": 1973,
+    "nottelabs/notte": 1970,
+    "iamzhihuix/skills-manage": 1954,
+    "jwadow/kiro-gateway": 1863,
+    "pewdiepie-archdaemon/odysseus": 24261,
+    "op7418/guizang-social-card-skill": 2506,
+    "Sophomoresty/gemini-web2api": 1165
   }
 }
