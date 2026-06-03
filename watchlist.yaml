@@ -43,6 +43,13 @@ github:
     - OpenHands/OpenHands
     - Doorman11991/smallcode
     - sapientinc/HRM-Text
+    # Added 2026-06-03 from milestone sweep + trending scan (Signal Radar candidates)
+    - deepset-ai/haystack
+    - Netflix/metaflow
+    - zenml-io/zenml
+    - pixeltable/pixeltable
+    - strands-agents/tools
+    - pewdiepie-archdaemon/odysseus
     # Add your portfolio companies and competitors here
   thresholds: [1000, 5000, 10000, 25000, 50000, 100000]
   # Also surface any new repo (created in last 7d) gaining >500 stars
